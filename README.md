@@ -1,7 +1,3 @@
-
-<p align="center">
-  <img src="https://graph.org/file/1d24af20a3f16919a2dda.jpg" alt="The-HellBot">
-</p>
 <h1 align="center">
   <b> mnhthon userbot | سورس منثون</b>
 </h1>
