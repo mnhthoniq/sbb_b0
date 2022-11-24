@@ -132,7 +132,9 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://graph.org//file/c20c4f492da1811e1bef0.jpg",
                 caption="**تم تشغيل سورس منثون بنجاح لعرض الاوامر ارسل .الاوامر**",
-                buttons=[(Button.url("كروب المساعدة", "https://t.me/mnhthon_support"),)],
+                buttons=[
+                    (Button.url("كروب المساعدة", "https://t.me/mnhthon_support"),)
+                ],
             )
     except Exception as e:
         LOGS.error(e)
