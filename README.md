@@ -3,7 +3,7 @@
   <img src="https://graph.org/file/1d24af20a3f16919a2dda.jpg" alt="The-HellBot">
 </p>
 <h1 align="center">
-  <b> jmthon userbot | سورس جمثون</b>
+  <b> mnhthon userbot | سورس منثون</b>
 </h1>
 
 <h3 align="center">
@@ -11,18 +11,13 @@
 </h3>
 
 ------
-##  شرح التنصيب 📺
-- عبر منصة هيروكو  [اضغط هنا](https://youtu.be/htUEv4Tlhk0)
-- تنصيب محليا  [اضغط هنا](https://youtu.be/htUEv4Tlhk0)
-- عبر منصة كويب  [اضغط هنا](https://youtu.be/Mtt0_qaOBv4)
-------
 
 ### التنصيب على كويب
 
 اسهل طريقة للتنصيب عبر الضغط على الزر في الاسفل
 
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/thejmthon/sbb_b0&branch=koyeb&name=jmthon-userbot&run_command=python3%20-m%20sbb_b&env%5BTG_BOT_TOKEN%5D=&env%5BAPP_ID%5D=&env%5BAPI_HASH%5D=&env%5BSTRING_SESSION%5D=&env%5BDATABASE_URL%5D=&env%5BENV%5D=ANYTHING&env%5BPM_LOGGER_GROUP_ID%5D=)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/mnhthoniq/sbb_b0&branch=koyeb&name=mnhthon-userbot&run_command=python3%20-m%20sbb_b&env%5BTG_BOT_TOKEN%5D=&env%5BAPP_ID%5D=&env%5BAPI_HASH%5D=&env%5BSTRING_SESSION%5D=&env%5BDATABASE_URL%5D=&env%5BENV%5D=ANYTHING&env%5BPM_LOGGER_GROUP_ID%5D=)
 
 ------
 
@@ -54,16 +49,16 @@
 * هنا بدل كلمة pass بأي كلمة سر ترغب بها
 - `ALTER USER postgres WITH PASSWORD 'pass';`
 
-* نصنع قاعده بيانات يمكنك تغيير كلمة jmthon الى اي اسم او تبقيه كما هو
-- `CREATE DATABASE jmthon;`
+* نصنع قاعده بيانات يمكنك تغيير كلمة mnhthon الى اي اسم او تبقيه كما هو
+- `CREATE DATABASE mnhthon;`
 
 - `\q`
 
 - `exit`
-* سيكون شكل قاعده البيانات كـالتالي و تبدل كلمة pass مع الباسوورد الذي وضعته وكلمة jmthon مع اسم القاعدة التي وضعتها 
-- ` postgresql://postgres:pass@localhost:5432/jmthon`
+* سيكون شكل قاعده البيانات كـالتالي و تبدل كلمة pass مع الباسوورد الذي وضعته وكلمة mnhthon مع اسم القاعدة التي وضعتها 
+- ` postgresql://postgres:pass@localhost:5432/mnhthon`
 
-- `git clone https://github.com/thejmthon/sbb_b0` 
+- `git clone https://github.com/mnhthoniq/sbb_b0` 
 
 - `cd sbb_b0`
 
@@ -77,7 +72,7 @@
 
 - `sudo apt install screen`
 
-- `screen -S jmthon`
+- `screen -S mnhthon`
 
 - `virtualenv venv`
 
@@ -123,14 +118,14 @@
 # License
 
 <p align="center">
-    <img src="https://www.gnu.org/graphics/gplv3-or-later.png" alt="jmthon License">
+    <img src="https://www.gnu.org/graphics/gplv3-or-later.png" alt="mnhthon License">
 </p>
 
 <h4 align="center">
-    Copyright (C) 2022 <a href="https://github.com/thejmthon">JMTHON</a>
+    Copyright (C) 2022 <a href="https://github.com/mnhthoniq">MNHTHON</a>
 </h4>
 
-Project [JMTHON](https://github.com/thejmthon/sbb_b0) is free software: you can redistribute it and/or modify
+Project [MNHTHON](https://github.com/mnhthoniq/sbb_b0) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
@@ -145,6 +140,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 ## Credits
 
 - 💖 [Catuserbot](https://github.com/TgCatUB/catuserbot)
-- 💖 [Team jmthon](https://t.me/jmthon)
+- 💖 [Team mnhthon](https://t.me/mnhthon)
 
 ------
