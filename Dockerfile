@@ -1,7 +1,7 @@
-FROM thejmthon/sbb_b0:slim-buster
+FROM mnhthoniq/sbb_b0:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/thejmthon/sbb_b0 /root/sbb_b
+RUN git clone https://github.com/mnhthoniq/sbb_b0 /root/sbb_b
 #working directory 
 WORKDIR /root/sbb_b
 
