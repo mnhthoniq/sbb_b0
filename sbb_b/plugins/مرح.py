@@ -1,6 +1,7 @@
 import random
 
 from razan.strings.fun import *
+
 from sbb_b import sbb_b
 from sbb_b.core.managers import edit_or_reply
 from sbb_b.helpers import get_user_from_event
