@@ -14,7 +14,7 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "3.2.0"
 __license__ = "GNU Affero General Public License v3.0"
-__author__ = "سورس منثون <https://github.com/mnhthon/sbb_b0>"
+__author__ = "سورس منثون <https://github.com/mnhthoniq/sbb_b0>"
 __copyright__ = f" حقوق سورس منثون (C) 2020 - 2022  {__author__}"
 
 sbb_b.version = __version__
