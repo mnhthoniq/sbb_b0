@@ -23,18 +23,13 @@ LOGS = logging.getLogger("سورس منثون")
 bot = sbb_b
 
 StartTime = time.time()
-jmthonversion = "7.2.0"
+mnhthonversion = "7.2.0"
 
 
-def close_connection(*_):
-    print("تم اغلاق الاتصال بالسورس")
-    runasync(sbb_b.disconnect())
-    sys.exit(143)
-
-
-signal.signal(signal.SIGTERM, close_connection)
-
-UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
+if Config.UPSTREAM_REPO == "mnhthoniq":
+    UPSTREAM_REPO_URL = "https://github.com/mnhthoniq/sbb_b0"
+else:
+    UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
 if Config.PRIVATE_GROUP_BOT_API_ID == 0:
     if gvarstatus("PRIVATE_GROUP_BOT_API_ID") is None:
